@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A46B4F18EE689D00F0D693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B4E18EE689D00F0D693 /* Foundation.framework */; };
+		00A46B5118EE689D00F0D693 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B5018EE689D00F0D693 /* CoreGraphics.framework */; };
+		00A46B5318EE689D00F0D693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B5218EE689D00F0D693 /* UIKit.framework */; };
+		00A46B5518EE689D00F0D693 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B5418EE689D00F0D693 /* SpriteKit.framework */; };
+		00A46B5B18EE689D00F0D693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A46B5918EE689D00F0D693 /* InfoPlist.strings */; };
+		00A46B5D18EE689D00F0D693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A46B5C18EE689D00F0D693 /* main.m */; };
+		00A46B6118EE689D00F0D693 /* GWZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A46B6018EE689D00F0D693 /* GWZAppDelegate.m */; };
+		00A46B6418EE689D00F0D693 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A46B6218EE689D00F0D693 /* Main_iPhone.storyboard */; };
+		00A46B6718EE689D00F0D693 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A46B6518EE689D00F0D693 /* Main_iPad.storyboard */; };
+		00A46B6A18EE689D00F0D693 /* GWZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A46B6918EE689D00F0D693 /* GWZViewController.m */; };
+		00A46B6D18EE689D00F0D693 /* GWZMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A46B6C18EE689D00F0D693 /* GWZMyScene.m */; };
+		00A46B6F18EE689D00F0D693 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A46B6E18EE689D00F0D693 /* Spaceship.png */; };
+		00A46B7118EE689D00F0D693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A46B7018EE689D00F0D693 /* Images.xcassets */; };
+		00A46B7818EE689D00F0D693 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B7718EE689D00F0D693 /* XCTest.framework */; };
+		00A46B7918EE689D00F0D693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B4E18EE689D00F0D693 /* Foundation.framework */; };
+		00A46B7A18EE689D00F0D693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A46B5218EE689D00F0D693 /* UIKit.framework */; };
+		00A46B8218EE689D00F0D693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A46B8018EE689D00F0D693 /* InfoPlist.strings */; };
+		00A46B8418EE689D00F0D693 /* Gee_WizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A46B8318EE689D00F0D693 /* Gee_WizTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A46B7B18EE689D00F0D693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A46B4318EE689D00F0D693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A46B4A18EE689D00F0D693;
+			remoteInfo = "Gee Wiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A46B4B18EE689D00F0D693 /* Gee Wiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gee Wiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A46B4E18EE689D00F0D693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00A46B5018EE689D00F0D693 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00A46B5218EE689D00F0D693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00A46B5418EE689D00F0D693 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		00A46B5818EE689D00F0D693 /* Gee Wiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gee Wiz-Info.plist"; sourceTree = "<group>"; };
+		00A46B5A18EE689D00F0D693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00A46B5C18EE689D00F0D693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A46B5E18EE689D00F0D693 /* Gee Wiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gee Wiz-Prefix.pch"; sourceTree = "<group>"; };
+		00A46B5F18EE689D00F0D693 /* GWZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWZAppDelegate.h; sourceTree = "<group>"; };
+		00A46B6018EE689D00F0D693 /* GWZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWZAppDelegate.m; sourceTree = "<group>"; };
+		00A46B6318EE689D00F0D693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		00A46B6618EE689D00F0D693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		00A46B6818EE689D00F0D693 /* GWZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWZViewController.h; sourceTree = "<group>"; };
+		00A46B6918EE689D00F0D693 /* GWZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWZViewController.m; sourceTree = "<group>"; };
+		00A46B6B18EE689D00F0D693 /* GWZMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWZMyScene.h; sourceTree = "<group>"; };
+		00A46B6C18EE689D00F0D693 /* GWZMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWZMyScene.m; sourceTree = "<group>"; };
+		00A46B6E18EE689D00F0D693 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		00A46B7018EE689D00F0D693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00A46B7618EE689D00F0D693 /* Gee WizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gee WizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A46B7718EE689D00F0D693 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00A46B7F18EE689D00F0D693 /* Gee WizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gee WizTests-Info.plist"; sourceTree = "<group>"; };
+		00A46B8118EE689D00F0D693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00A46B8318EE689D00F0D693 /* Gee_WizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gee_WizTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A46B4818EE689D00F0D693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A46B5118EE689D00F0D693 /* CoreGraphics.framework in Frameworks */,
+				00A46B5318EE689D00F0D693 /* UIKit.framework in Frameworks */,
+				00A46B5518EE689D00F0D693 /* SpriteKit.framework in Frameworks */,
+				00A46B4F18EE689D00F0D693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A46B7318EE689D00F0D693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A46B7818EE689D00F0D693 /* XCTest.framework in Frameworks */,
+				00A46B7A18EE689D00F0D693 /* UIKit.framework in Frameworks */,
+				00A46B7918EE689D00F0D693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A46B4218EE689D00F0D693 = {
+			isa = PBXGroup;
+			children = (
+				00A46B5618EE689D00F0D693 /* Gee Wiz */,
+				00A46B7D18EE689D00F0D693 /* Gee WizTests */,
+				00A46B4D18EE689D00F0D693 /* Frameworks */,
+				00A46B4C18EE689D00F0D693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A46B4C18EE689D00F0D693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A46B4B18EE689D00F0D693 /* Gee Wiz.app */,
+				00A46B7618EE689D00F0D693 /* Gee WizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A46B4D18EE689D00F0D693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A46B4E18EE689D00F0D693 /* Foundation.framework */,
+				00A46B5018EE689D00F0D693 /* CoreGraphics.framework */,
+				00A46B5218EE689D00F0D693 /* UIKit.framework */,
+				00A46B5418EE689D00F0D693 /* SpriteKit.framework */,
+				00A46B7718EE689D00F0D693 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00A46B5618EE689D00F0D693 /* Gee Wiz */ = {
+			isa = PBXGroup;
+			children = (
+				00A46B5F18EE689D00F0D693 /* GWZAppDelegate.h */,
+				00A46B6018EE689D00F0D693 /* GWZAppDelegate.m */,
+				00A46B6218EE689D00F0D693 /* Main_iPhone.storyboard */,
+				00A46B6518EE689D00F0D693 /* Main_iPad.storyboard */,
+				00A46B6818EE689D00F0D693 /* GWZViewController.h */,
+				00A46B6918EE689D00F0D693 /* GWZViewController.m */,
+				00A46B6B18EE689D00F0D693 /* GWZMyScene.h */,
+				00A46B6C18EE689D00F0D693 /* GWZMyScene.m */,
+				00A46B6E18EE689D00F0D693 /* Spaceship.png */,
+				00A46B7018EE689D00F0D693 /* Images.xcassets */,
+				00A46B5718EE689D00F0D693 /* Supporting Files */,
+			);
+			path = "Gee Wiz";
+			sourceTree = "<group>";
+		};
+		00A46B5718EE689D00F0D693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A46B5818EE689D00F0D693 /* Gee Wiz-Info.plist */,
+				00A46B5918EE689D00F0D693 /* InfoPlist.strings */,
+				00A46B5C18EE689D00F0D693 /* main.m */,
+				00A46B5E18EE689D00F0D693 /* Gee Wiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A46B7D18EE689D00F0D693 /* Gee WizTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A46B8318EE689D00F0D693 /* Gee_WizTests.m */,
+				00A46B7E18EE689D00F0D693 /* Supporting Files */,
+			);
+			path = "Gee WizTests";
+			sourceTree = "<group>";
+		};
+		00A46B7E18EE689D00F0D693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A46B7F18EE689D00F0D693 /* Gee WizTests-Info.plist */,
+				00A46B8018EE689D00F0D693 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A46B4A18EE689D00F0D693 /* Gee Wiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A46B8718EE689D00F0D693 /* Build configuration list for PBXNativeTarget "Gee Wiz" */;
+			buildPhases = (
+				00A46B4718EE689D00F0D693 /* Sources */,
+				00A46B4818EE689D00F0D693 /* Frameworks */,
+				00A46B4918EE689D00F0D693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gee Wiz";
+			productName = "Gee Wiz";
+			productReference = 00A46B4B18EE689D00F0D693 /* Gee Wiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A46B7518EE689D00F0D693 /* Gee WizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A46B8A18EE689D00F0D693 /* Build configuration list for PBXNativeTarget "Gee WizTests" */;
+			buildPhases = (
+				00A46B7218EE689D00F0D693 /* Sources */,
+				00A46B7318EE689D00F0D693 /* Frameworks */,
+				00A46B7418EE689D00F0D693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A46B7C18EE689D00F0D693 /* PBXTargetDependency */,
+			);
+			name = "Gee WizTests";
+			productName = "Gee WizTests";
+			productReference = 00A46B7618EE689D00F0D693 /* Gee WizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A46B4318EE689D00F0D693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GWZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 6oh2;
+				TargetAttributes = {
+					00A46B7518EE689D00F0D693 = {
+						TestTargetID = 00A46B4A18EE689D00F0D693;
+					};
+				};
+			};
+			buildConfigurationList = 00A46B4618EE689D00F0D693 /* Build configuration list for PBXProject "Gee Wiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A46B4218EE689D00F0D693;
+			productRefGroup = 00A46B4C18EE689D00F0D693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A46B4A18EE689D00F0D693 /* Gee Wiz */,
+				00A46B7518EE689D00F0D693 /* Gee WizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A46B4918EE689D00F0D693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A46B6F18EE689D00F0D693 /* Spaceship.png in Resources */,
+				00A46B7118EE689D00F0D693 /* Images.xcassets in Resources */,
+				00A46B6718EE689D00F0D693 /* Main_iPad.storyboard in Resources */,
+				00A46B6418EE689D00F0D693 /* Main_iPhone.storyboard in Resources */,
+				00A46B5B18EE689D00F0D693 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A46B7418EE689D00F0D693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A46B8218EE689D00F0D693 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A46B4718EE689D00F0D693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A46B5D18EE689D00F0D693 /* main.m in Sources */,
+				00A46B6118EE689D00F0D693 /* GWZAppDelegate.m in Sources */,
+				00A46B6A18EE689D00F0D693 /* GWZViewController.m in Sources */,
+				00A46B6D18EE689D00F0D693 /* GWZMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A46B7218EE689D00F0D693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A46B8418EE689D00F0D693 /* Gee_WizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A46B7C18EE689D00F0D693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A46B4A18EE689D00F0D693 /* Gee Wiz */;
+			targetProxy = 00A46B7B18EE689D00F0D693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A46B5918EE689D00F0D693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A46B5A18EE689D00F0D693 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00A46B6218EE689D00F0D693 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A46B6318EE689D00F0D693 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		00A46B6518EE689D00F0D693 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A46B6618EE689D00F0D693 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		00A46B8018EE689D00F0D693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A46B8118EE689D00F0D693 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A46B8518EE689D00F0D693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A46B8618EE689D00F0D693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A46B8818EE689D00F0D693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gee Wiz/Gee Wiz-Prefix.pch";
+				INFOPLIST_FILE = "Gee Wiz/Gee Wiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00A46B8918EE689D00F0D693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gee Wiz/Gee Wiz-Prefix.pch";
+				INFOPLIST_FILE = "Gee Wiz/Gee Wiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00A46B8B18EE689D00F0D693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gee Wiz.app/Gee Wiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gee Wiz/Gee Wiz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gee WizTests/Gee WizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00A46B8C18EE689D00F0D693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gee Wiz.app/Gee Wiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gee Wiz/Gee Wiz-Prefix.pch";
+				INFOPLIST_FILE = "Gee WizTests/Gee WizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A46B4618EE689D00F0D693 /* Build configuration list for PBXProject "Gee Wiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A46B8518EE689D00F0D693 /* Debug */,
+				00A46B8618EE689D00F0D693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A46B8718EE689D00F0D693 /* Build configuration list for PBXNativeTarget "Gee Wiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A46B8818EE689D00F0D693 /* Debug */,
+				00A46B8918EE689D00F0D693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00A46B8A18EE689D00F0D693 /* Build configuration list for PBXNativeTarget "Gee WizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A46B8B18EE689D00F0D693 /* Debug */,
+				00A46B8C18EE689D00F0D693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A46B4318EE689D00F0D693 /* Project object */;
+}
